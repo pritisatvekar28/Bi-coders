@@ -1,0 +1,15 @@
+body{
+    background-color:azure;
+
+}
+.header{
+    color: dimgrey;
+    margin-left: 10vw;
+    margin-top: 10vw;
+    border-color: gray;
+}
+.navbar{
+    background-color: beige;
+    height: 5vh;
+    display: block;
+}
