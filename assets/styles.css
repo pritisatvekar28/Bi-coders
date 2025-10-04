@@ -4,10 +4,10 @@ body{
 }
 .navbar{
     background-color: transparent;
-    height: 5vh;
+    height: fit-content;
     height: auto;
-    display: block;
-    border-bottom: ;
+    display: flex;
+    width: 100vh;
     
 }
 .header{
@@ -16,4 +16,33 @@ body{
     border-color: gray;
     width: fit-content;
 
+}
+input{
+    display: inline;
+    max-height: 2vh;
+    right:0px;
+}
+.hr{
+    height:0.1vh;
+    background-color: darkgray;
+    width: 85vw;
+    display: flex;
+    align-self: center;
+}
+.category-options{
+    width: 90vw;
+    height: fit-content;
+    margin-top: 3vh;
+    overflow-x: auto;
+    display: flex;
+    gap: 2rem;
+}
+.category-options::-webkit-scrollbar {
+  display: none;
+}
+p{
+    margin: 10px;
+    outline: none;
+    text-decoration: dotted;
+    color: beige;
 }
