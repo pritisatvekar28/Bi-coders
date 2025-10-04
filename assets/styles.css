@@ -7,9 +7,14 @@ body{
     margin-left: 10vw;
     margin-top: 10vw;
     border-color: gray;
+    background-color: aqua;
+    width: fit-content;
+    padding: 1vh;
+
 }
 .navbar{
     background-color: beige;
     height: 5vh;
     display: block;
+    
 }
