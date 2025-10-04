@@ -1,20 +1,19 @@
 body{
-    background-color:azure;
-
-}
-.header{
-    color: dimgrey;
-    margin-left: 10vw;
-    margin-top: 10vw;
-    border-color: gray;
-    background-color: aqua;
-    width: fit-content;
-    padding: 1vh;
+    background-color:black;
 
 }
 .navbar{
-    background-color: beige;
+    background-color: transparent;
     height: 5vh;
+    height: auto;
     display: block;
+    border-bottom: ;
     
+}
+.header{
+    color: gray;
+    margin-left: 10vw;
+    border-color: gray;
+    width: fit-content;
+
 }
